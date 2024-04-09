@@ -28,9 +28,9 @@ function getCookie(cname) {
 function checkCookie() {
   let user = getCookie("username");
   if (user != "") {
-    alert("Welcome again " + user);
+    alert(user + " has consented to the use of cookies on this device.");
   } else {
-     user = prompt("Please enter your name:","");
+     user = prompt("This website uses cookies on this device. Type in your name to consent to the use of cookies, then reload the page.","");
      if (user != "" && user != null) {
        setCookie("username", user, 30);
      }
