@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    background-color: pink;
+    padding: 2em;
+}
+
+footer {
+	background-color: #000000;
+    text-align: center;
+	color: white;
+	padding: 0.5em 0;
+}
